@@ -1,15 +1,17 @@
 from django.contrib import admin
 from django.urls import path, include
+# ADD THESE TWO IMPORTS:
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
-    # Admin
     path('admin/', admin.site.urls),
-
-    # Prometheus metrics
     path('', include('django_prometheus.urls')),
-
-    # Our apps
     path('', include('shop.urls')),
     path('accounts/', include('accounts.urls')),
-    path('accounts/', include('django.contrib.auth.urls')),  # Built-in auth views
+    path('accounts/', include('django.contrib.auth.urls')),
 ]
+
+# ADD THIS BLOCK AT THE VERY BOTTOM:
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

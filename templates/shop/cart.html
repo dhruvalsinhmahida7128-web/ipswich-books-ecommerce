@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Your Cart</h2>
+    {% if cart_items %}
+        <table style="width:100%; background:white; border-collapse: collapse; margin-top:20px;">
+            <tr style="background:#eee; text-align:left;">
+                <th style="padding:10px;">Book</th>
+                <th style="padding:10px;">Qty</th>
+                <th style="padding:10px;">Price</th>
+                <th style="padding:10px;">Subtotal</th>
+            </tr>
+            {% for item in cart_items %}
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding:10px;">{{ item.book.title }}</td>
+                    <td style="padding:10px;">{{ item.quantity }}</td>
+                    <td style="padding:10px;">£{{ item.book.price }}</td>
+                    <td style="padding:10px;">£{{ item.subtotal }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        <h3 style="text-align:right; margin-top:20px;">Total: £{{ total }}</h3>
+        <div style="text-align:right;">
+            <a href="{% url 'checkout' %}" class="btn">Proceed to Checkout</a>
+        </div>
+    {% else %}
+        <p>Your cart is empty.</p>
+        <a href="{% url 'home' %}" class="btn">Continue Shopping</a>
+    {% endif %}
+{% endblock %}

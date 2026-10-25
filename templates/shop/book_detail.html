@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div style="display:flex; gap: 30px; background:white; padding:20px; border-radius:8px;">
+        <div style="flex: 1;">
+            {% if book.cover_image %}
+                <img src="{{ book.cover_image.url }}" alt="{{ book.title }}" style="width:100%; max-width:300px;">
+            {% else %}
+                <div style="background:#ddd; height:350px; width:300px; display:flex; align-items:center; justify-content:center; color:#666;">No Cover</div>
+            {% endif %}
+        </div>
+        <div style="flex: 2;">
+            <h2>{{ book.title }}</h2>
+            <h4 style="color:#666;">by {{ book.author }}</h4>
+            <p style="font-size:24px; font-weight:bold; color:#1E88E5;">£{{ book.price }}</p>
+            <p>{{ book.description }}</p>
+            <p><strong>Stock:</strong> {{ book.stock }}</p>
+
+            {% if book.stock > 0 %}
+                <a href="{% url 'add_to_cart' book.pk %}" class="btn">Add to Cart</a>
+            {% else %}
+                <p style="color:red;">Out of Stock</p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

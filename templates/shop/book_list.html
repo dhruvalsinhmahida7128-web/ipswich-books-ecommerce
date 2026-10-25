@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Our Book Collection</h2>
+    <div class="grid">
+        {% for book in books %}
+            <div class="card">
+                {% if book.cover_image %}
+                    <img src="{{ book.cover_image.url }}" alt="{{ book.title }}">
+                {% else %}
+                    <div style="background:#ddd; height:200px; margin-bottom:15px; display:flex; align-items:center; justify-content:center; color:#666;">No Cover</div>
+                {% endif %}
+                <h3>{{ book.title }}</h3>
+                <p style="color:#666;">{{ book.author }}</p>
+                <p style="font-weight:bold;">£{{ book.price }}</p>
+                <a href="{% url 'book_detail' book.pk %}" class="btn">View Details</a>
+            </div>
+        {% empty %}
+            <p>No books found in the database. Add some via the Admin panel!</p>
+        {% endfor %}
+    </div>
+{% endblock %}
