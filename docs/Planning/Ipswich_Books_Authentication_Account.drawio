@@ -1,0 +1,244 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="auth-account-wireframe" name="Authentication &amp; Account">
+    <mxGraphModel dx="1500" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#1B2F45;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Authentication &amp;amp; Account&lt;/font&gt;" vertex="1">
+          <mxGeometry height="42" width="1450" x="28" y="18" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F8FA;strokeColor=#9DB8CF;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Register&lt;/b&gt;  —  /accounts/register/" vertex="1">
+          <mxGeometry height="35" width="365" x="15" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#8EABC4;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="" vertex="1">
+          <mxGeometry height="516" width="365" x="15" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#91A7B8;strokeColor=#91A7B8;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="7" width="7" x="33" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#91A7B8;strokeColor=#91A7B8;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="7" width="7" x="47" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#91A7B8;strokeColor=#91A7B8;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="7" width="7" x="61" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F6F8;strokeColor=#F2F6F8;fontColor=#102D50;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="&lt;b&gt;Ipswich Books&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="363" x="16" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F6F8;strokeColor=#F2F6F8;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Home   |   Books   |   Cart 🛒   |   Login" vertex="1">
+          <mxGeometry height="36" width="205" x="170" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F8FA;strokeColor=#9DB8CF;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Login&lt;/b&gt;  —  /accounts/login/" vertex="1">
+          <mxGeometry height="35" width="365" x="395" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#8EABC4;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="" vertex="1">
+          <mxGeometry height="516" width="365" x="395" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#91A7B8;strokeColor=#91A7B8;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="7" width="7" x="413" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#91A7B8;strokeColor=#91A7B8;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="7" width="7" x="427" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#91A7B8;strokeColor=#91A7B8;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="7" width="7" x="441" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F6F8;strokeColor=#F2F6F8;fontColor=#102D50;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="&lt;b&gt;Ipswich Books&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="363" x="396" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F6F8;strokeColor=#F2F6F8;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Home   |   Books   |   Cart 🛒   |   Login" vertex="1">
+          <mxGeometry height="36" width="205" x="550" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F8FA;strokeColor=#9DB8CF;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Logout&lt;/b&gt;  —  /accounts/logout/" vertex="1">
+          <mxGeometry height="35" width="365" x="775" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#8EABC4;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="" vertex="1">
+          <mxGeometry height="516" width="365" x="775" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#91A7B8;strokeColor=#91A7B8;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="7" width="7" x="793" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#91A7B8;strokeColor=#91A7B8;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="7" width="7" x="807" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#91A7B8;strokeColor=#91A7B8;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="7" width="7" x="821" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F6F8;strokeColor=#F2F6F8;fontColor=#102D50;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="&lt;b&gt;Ipswich Books&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="363" x="776" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F6F8;strokeColor=#F2F6F8;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Home   |   Books   |   Cart 🛒   |   Hi, alice   |   Logout" vertex="1">
+          <mxGeometry height="36" width="205" x="930" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F8FA;strokeColor=#9DB8CF;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Profile&lt;/b&gt;  —  /accounts/profile/" vertex="1">
+          <mxGeometry height="35" width="365" x="1155" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#8EABC4;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="" vertex="1">
+          <mxGeometry height="516" width="365" x="1155" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#91A7B8;strokeColor=#91A7B8;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="7" width="7" x="1173" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#91A7B8;strokeColor=#91A7B8;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="7" width="7" x="1187" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="28" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#91A7B8;strokeColor=#91A7B8;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="7" width="7" x="1201" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F6F8;strokeColor=#F2F6F8;fontColor=#102D50;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="&lt;b&gt;Ipswich Books&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="363" x="1156" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F6F8;strokeColor=#F2F6F8;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=right;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Home   |   Books   |   Cart 🛒   |   Hi, alice   |   Logout" vertex="1">
+          <mxGeometry height="36" width="205" x="1310" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C4D6E5;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="" vertex="1">
+          <mxGeometry height="365" width="267" x="66" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#102D50;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="Create an account" vertex="1">
+          <mxGeometry height="28" width="240" x="78" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Username" vertex="1">
+          <mxGeometry height="18" width="238" x="78" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BFD0DE;fontColor=#68849E;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Enter username" vertex="1">
+          <mxGeometry height="29" width="234" x="78" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Email" vertex="1">
+          <mxGeometry height="18" width="238" x="78" y="297" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BFD0DE;fontColor=#68849E;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Enter email address" vertex="1">
+          <mxGeometry height="29" width="234" x="78" y="317" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Password" vertex="1">
+          <mxGeometry height="18" width="238" x="78" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BFD0DE;fontColor=#68849E;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Enter password" vertex="1">
+          <mxGeometry height="29" width="234" x="78" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Confirm Password" vertex="1">
+          <mxGeometry height="18" width="238" x="78" y="419" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BFD0DE;fontColor=#68849E;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Confirm password" vertex="1">
+          <mxGeometry height="29" width="234" x="78" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E88E5;strokeColor=#1E88E5;fontColor=#FFFFFF;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="Register" vertex="1">
+          <mxGeometry height="30" width="234" x="83" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#35536E;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Already have an account? &lt;font color=&quot;#1E88E5&quot;&gt;Login&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="238" x="78" y="521" as="geometry" />
+        </mxCell>
+        <mxCell id="44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C4D6E5;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="" vertex="1">
+          <mxGeometry height="288" width="264" x="448" y="199" as="geometry" />
+        </mxCell>
+        <mxCell id="45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#102D50;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="Log in" vertex="1">
+          <mxGeometry height="28" width="230" x="464" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Username" vertex="1">
+          <mxGeometry height="18" width="226" x="464" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BFD0DE;fontColor=#68849E;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Enter username" vertex="1">
+          <mxGeometry height="34" width="226" x="464" y="271" as="geometry" />
+        </mxCell>
+        <mxCell id="48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Password" vertex="1">
+          <mxGeometry height="18" width="226" x="464" y="326" as="geometry" />
+        </mxCell>
+        <mxCell id="49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BFD0DE;fontColor=#68849E;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Enter password" vertex="1">
+          <mxGeometry height="34" width="226" x="464" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E88E5;strokeColor=#1E88E5;fontColor=#FFFFFF;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="Log In" vertex="1">
+          <mxGeometry height="33" width="228" x="466" y="403" as="geometry" />
+        </mxCell>
+        <mxCell id="51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#35536E;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="No account? &lt;font color=&quot;#1E88E5&quot;&gt;Register&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24" width="230" x="464" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C4D6E5;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="" vertex="1">
+          <mxGeometry height="164" width="267" x="829" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#102D50;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="Log out?" vertex="1">
+          <mxGeometry height="28" width="235" x="845" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#35536E;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Are you sure you want to log out&lt;br&gt;of your account?" vertex="1">
+          <mxGeometry height="49" width="235" x="845" y="308" as="geometry" />
+        </mxCell>
+        <mxCell id="56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F5F7;strokeColor=#BFD0DE;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Cancel" vertex="1">
+          <mxGeometry height="34" width="95" x="845" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E88E5;strokeColor=#1E88E5;fontColor=#FFFFFF;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="Logout" vertex="1">
+          <mxGeometry height="34" width="95" x="952" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C4D6E5;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="" vertex="1">
+          <mxGeometry height="342" width="321" x="1182" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#102D50;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="My Account" vertex="1">
+          <mxGeometry height="28" width="285" x="1197" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="Username:" vertex="1">
+          <mxGeometry height="22" width="103" x="1197" y="231" as="geometry" />
+        </mxCell>
+        <mxCell id="62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#35536E;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="alice" vertex="1">
+          <mxGeometry height="22" width="180" x="1305" y="231" as="geometry" />
+        </mxCell>
+        <mxCell id="63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="Email:" vertex="1">
+          <mxGeometry height="22" width="103" x="1197" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#35536E;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="alice@example.com" vertex="1">
+          <mxGeometry height="22" width="180" x="1305" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="Joined:" vertex="1">
+          <mxGeometry height="22" width="103" x="1197" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#35536E;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="2025-11-04" vertex="1">
+          <mxGeometry height="22" width="180" x="1305" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="Orders:" vertex="1">
+          <mxGeometry height="22" width="103" x="1197" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#35536E;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="3" vertex="1">
+          <mxGeometry height="22" width="180" x="1305" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1DFE9;strokeColor=#D1DFE9;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="" vertex="1">
+          <mxGeometry height="1" width="287" x="1197" y="343" as="geometry" />
+        </mxCell>
+        <mxCell id="70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#102D50;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="Recent Orders" vertex="1">
+          <mxGeometry height="27" width="285" x="1197" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EEF2F5;strokeColor=#C8D7E3;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="Order #" vertex="1">
+          <mxGeometry height="27" width="90" x="1199" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EEF2F5;strokeColor=#C8D7E3;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="Total" vertex="1">
+          <mxGeometry height="27" width="96" x="1289" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EEF2F5;strokeColor=#C8D7E3;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;fontStyle=1;" value="Date" vertex="1">
+          <mxGeometry height="27" width="101" x="1385" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E3EB;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Order #12" vertex="1">
+          <mxGeometry height="31" width="90" x="1199" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E3EB;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="£24.99" vertex="1">
+          <mxGeometry height="31" width="96" x="1289" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E3EB;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="2025-11-10" vertex="1">
+          <mxGeometry height="31" width="101" x="1385" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E3EB;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Order #9" vertex="1">
+          <mxGeometry height="31" width="90" x="1199" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E3EB;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="£15.50" vertex="1">
+          <mxGeometry height="31" width="96" x="1289" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E3EB;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="2025-11-07" vertex="1">
+          <mxGeometry height="31" width="101" x="1385" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E3EB;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="Order #4" vertex="1">
+          <mxGeometry height="31" width="90" x="1199" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E3EB;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="£9.99" vertex="1">
+          <mxGeometry height="31" width="96" x="1289" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D8E3EB;fontColor=#17324D;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="2025-11-04" vertex="1">
+          <mxGeometry height="31" width="101" x="1385" y="475" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
