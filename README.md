@@ -18,9 +18,14 @@ Django (MVT) and delivered under DevOps principles.
 
 ## Documentation
 
-- [Scope (v1.1)](docs/planning/scope.md)
-- [Toolchain decisions](docs/planning/toolchain.md)
-- [Team & culture](docs/planning/team.md)
+- [Scope (v1.1)](./docs/planning/scope.md)
+- [Toolchain decisions](./docs/planning/toolchain.md)
+- [Team & culture](./docs/planning/team.md)
+
+## Diagrams
+- [Storefront Wireframe](./docs/planning/Ipswich%20Books%20Store%20Wireframe.png)
+- [Auth Wireframe](./docs/planning/Ipswich_Books_Authentication_Account%20Wireframe.png)
+- [MVT Architecture](./docs/planning/django-ci-MVT.png)
 
 ## Phase status
 
