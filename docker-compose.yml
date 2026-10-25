@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_DB=ipswich_db
+      - POSTGRES_USER=ipswich_user
+      - POSTGRES_PASSWORD=ipswich_password
+
+  web:
+    build: .
+    command: >
+      sh -c "python manage.py migrate &&
+             gunicorn --bind 0.0.0.0:8000 ipswich_books.wsgi:application"
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=1
+      - SECRET_KEY=django-insecure-local-dev-key-change-in-prod
+      - DATABASE_URL=postgres://ipswich_user:ipswich_password@db:5432/ipswich_db
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:
