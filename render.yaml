@@ -1,0 +1,28 @@
+databases:
+  - name: ipswich-db
+    plan: free
+    databaseName: ipswich_db
+    user: ipswich_user
+
+services:
+  - type: web
+    name: ipswich-books
+    plan: free
+    runtime: python
+    buildCommand: './build.sh'
+    startCommand: 'gunicorn ipswich_books.wsgi:application'
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: ipswich-db
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: WEB_CONCURRENCY
+        value: 4
+      - key: DEBUG
+        value: "False"
+      - key: ALLOWED_HOSTS
+        value: ".onrender.com"
