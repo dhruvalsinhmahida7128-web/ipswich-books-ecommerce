@@ -1,11 +1,12 @@
 name: Django CI
 
-# Trigger the workflow on push or pull request to the main branch
+# Trigger the workflow on push, pull request, OR manually from the Actions tab
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch: # <-- ADDED THIS LINE to enable the manual run button
 
 jobs:
   build-and-test:
@@ -31,10 +32,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Set up Python 3.11
+    - name: Set up Python 3.12 # <-- CHANGED from 3.11 to 3.12 to match Django 6.0.9
       uses: actions/setup-python@v5
       with:
-        python-version: '3.11'
+        python-version: '3.12' # <-- CHANGED to match
         cache: 'pip' # Caches dependencies to make future runs faster
 
     - name: Install Dependencies
