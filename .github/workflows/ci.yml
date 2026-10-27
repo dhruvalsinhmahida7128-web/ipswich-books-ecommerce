@@ -1,0 +1,52 @@
+name: Django CI
+
+# Trigger the workflow on push or pull request to the main branch
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    # We spin up a PostgreSQL database service for the tests
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_USER: ipswich_user
+          POSTGRES_PASSWORD: ipswich_password
+          POSTGRES_DB: ipswich_db
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip' # Caches dependencies to make future runs faster
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run Tests
+      env:
+        # Tell Django to use the PostgreSQL database provided by the service above
+        DATABASE_URL: postgres://ipswich_user:ipswich_password@localhost:5432/ipswich_db
+        SECRET_KEY: 'django-insecure-ci-test-key'
+        DEBUG: '1'
+      run: |
+        python manage.py test
