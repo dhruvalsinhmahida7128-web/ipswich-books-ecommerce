@@ -1,12 +1,10 @@
 global:
-  scrape_interval: 15s # Scrape every 15 seconds
+  scrape_interval: 15s 
   evaluation_interval: 15s
 
 scrape_configs:
   - job_name: 'django-app'
-    # We will point this at your live Render URL
     metrics_path: '/metrics'
     static_configs:
-      - targets: ['ipswich-books.onrender.com/'] 
-      # IMPORTANT: Replace the URL above with YOUR actual live Render URL (without https://)
+      - targets: ['ipswich-books.onrender.com'] # <--- UPDATED URL HERE
     scheme: https
