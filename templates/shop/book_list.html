@@ -6,9 +6,10 @@
         {% for book in books %}
             <div class="card">
                 {% if book.cover_image %}
-                    <img src="{{ book.cover_image.url }}" alt="{{ book.title }}">
+                    <!-- Changed to handle URL directly -->
+                    <img src="{{ book.cover_image }}" alt="{{ book.title }}" style="height: 250px; width: 100%; object-fit: cover; margin-bottom: 15px; border-radius: 4px;">
                 {% else %}
-                    <div style="background:#ddd; height:200px; margin-bottom:15px; display:flex; align-items:center; justify-content:center; color:#666;">No Cover</div>
+                    <div style="background:#ddd; height:250px; margin-bottom:15px; display:flex; align-items:center; justify-content:center; color:#666; border-radius: 4px;">No Cover</div>
                 {% endif %}
                 <h3>{{ book.title }}</h3>
                 <p style="color:#666;">{{ book.author }}</p>

@@ -4,9 +4,10 @@
     <div style="display:flex; gap: 30px; background:white; padding:20px; border-radius:8px;">
         <div style="flex: 1;">
             {% if book.cover_image %}
-                <img src="{{ book.cover_image.url }}" alt="{{ book.title }}" style="width:100%; max-width:300px;">
+                <!-- Changed to handle URL directly -->
+                <img src="{{ book.cover_image }}" alt="{{ book.title }}" style="width:100%; max-width:300px; object-fit: cover; border-radius: 4px;">
             {% else %}
-                <div style="background:#ddd; height:350px; width:300px; display:flex; align-items:center; justify-content:center; color:#666;">No Cover</div>
+                <div style="background:#ddd; height:350px; width:300px; display:flex; align-items:center; justify-content:center; color:#666; border-radius: 4px;">No Cover</div>
             {% endif %}
         </div>
         <div style="flex: 2;">
@@ -22,5 +23,8 @@
                 <p style="color:red;">Out of Stock</p>
             {% endif %}
         </div>
+    </div>
+    <div style="margin-top: 20px;">
+        <a href="{% url 'home' %}" style="color: #666; text-decoration: none;">&larr; Back to Store</a>
     </div>
 {% endblock %}

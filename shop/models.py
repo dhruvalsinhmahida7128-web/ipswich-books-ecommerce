@@ -7,7 +7,8 @@ class Book(models.Model):
     isbn = models.CharField(max_length=13, unique=True)
     description = models.TextField()
     price = models.DecimalField(max_digits=6, decimal_places=2)
-    cover_image = models.ImageField(upload_to='covers/', blank=True)
+    #cover_image = models.ImageField(upload_to='covers/', blank=True)
+    cover_image = models.URLField(max_length=500, blank=True, null=True)
     stock = models.PositiveIntegerField(default=0)
     created_at = models.DateTimeField(auto_now_add=True)
 
