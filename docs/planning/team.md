@@ -3,12 +3,10 @@
 
 ## Part B — Team Composition & Culture Note
 
-Save this as `docs/planning/team.md`. The brief asks you to discuss "team composition being mindful of the requirements" and "the ideal team culture with justification and how collaboration will be handled." This file answers both in one place.
 
-```markdown
 # Team Composition & Collaboration Model — Ipswich Books PoC
 
-**Version:** 1.0
+
 
 ## 1. Assumed Team Composition
 
