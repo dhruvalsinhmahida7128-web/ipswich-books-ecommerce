@@ -2,11 +2,6 @@
 
 **Project:** Proof-of-Concept E-commerce Application for Ipswich Retail
 **Author:** DevOps Lead (PoC)
-**Version:** 1.1
-**Date:** 10/25/2026
-**Status:** Approved for build
-**Changes from v1.0:** User authentication and profiles added to scope.
-
 ---
 
 ## 1. Purpose
