@@ -8,12 +8,12 @@ from shop.models import Order
 
 def register(request):
     if request.method == 'POST':
-        form = CustomUserCreationForm(request.POST)  # <-- CHANGED HERE
+        form = CustomUserCreationForm(request.POST) 
         if form.is_valid():
             user = form.save()
             return redirect('login')
     else:
-        form = CustomUserCreationForm()  # <-- CHANGED HERE
+        form = CustomUserCreationForm()
 
     return render(request, 'accounts/register.html', {'form': form})
 
