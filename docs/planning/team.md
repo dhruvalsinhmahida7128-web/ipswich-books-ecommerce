@@ -1,10 +1,10 @@
 
 ---
 
-## Part B — Team Composition & Culture Note
+## Part B - Team Composition & Culture Note
 
 
-# Team Composition & Collaboration Model — Ipswich Books PoC
+# Team Composition & Collaboration Model - Ipswich Books PoC
 
 
 ## 1. Assumed Team Composition
@@ -21,7 +21,7 @@ evolve the solution. This is the composition referenced throughout the report.
 | QA Engineer | 0.5 | Test strategy, E2E scenarios, sign-off on release candidates |
 | UX Designer | 0.25 | Wireframes, frontend styling, accessibility review |
 
-**Total:** 4.25 FTE. For a company of Ipswich Retail's size, the two
+For a company of Ipswich Retail's size, the two
 Distinct engineering roles, developer and DevOps, reflect the
 cross-functional "you build it, you run it" model that DevOps adoption
 requires. Splitting DevOps into its own role for a PoC is a pragmatic choice
@@ -65,18 +65,6 @@ rather than toil.
 Feedback loops in the current system are described as slow; bug fixes take a long time to reach production, and complaints arrive after
 release. Short loops (CI on every PR, deploy on merge, live Grafana
 dashboards) surface problems in minutes rather than weeks.
-
-## 3. Collaboration Mechanisms
-
-| Concern | Mechanism |
-|---|---|
-| Backlog & planning | GitHub Issues (labels: `feat`, `bug`, `ci`, `infra`) organised into a GitHub Projects board |
-| Real-time chat | Slack — channels: `#dev`, `#deploys`, `#alerts` |
-| Async standup | Slack thread each morning: "yesterday / today / blockers" |
-| Code review | Pull request required before merge to `main`; at least one approving review; CI green required |
-| Deploy visibility | GitHub Actions → Slack notification on deploy success/failure |
-| Incident flow | Render log link + Slack alert; blameless retrospective comment posted to the corresponding GitHub Issue |
-| Documentation | Versioned in-repo under `docs/` (this file, scope.md, toolchain.md, and diagrams) — docs-as-code |
 
 
 ---
