@@ -38,7 +38,7 @@ The brief notes frequent downtime. A blameless
 post-mortem culture encourages the team to surface root causes rather than
 hide incidents, which is the only reliable way to reduce repeat outages. The
 PoC supports this via structured Render log review after each deploy
-failure — captured in the report's reflection section.
+failure, captured in the report's reflection section.
 
 ### 2.2 Small, reversible changes
 The monolithic deployment process is described as slow and
@@ -62,8 +62,7 @@ scrape configuration are all automated, leaving humans to focus on judgement
 rather than toil.
 
 ### 2.5 Continuous feedback over phase gates
-Feedback loops in the current system are described as slow
-— bug fixes take a long time to reach production, and complaints arrive after
+Feedback loops in the current system are described as slow; bug fixes take a long time to reach production, and complaints arrive after
 release. Short loops (CI on every PR, deploy on merge, live Grafana
 dashboards) surface problems in minutes rather than weeks.
 
@@ -79,26 +78,5 @@ dashboards) surface problems in minutes rather than weeks.
 | Incident flow | Render log link + Slack alert; blameless retrospective comment posted to the corresponding GitHub Issue |
 | Documentation | Versioned in-repo under `docs/` (this file, scope.md, toolchain.md, and diagrams) — docs-as-code |
 
-## 4. Branching & Release Strategy
-
-- `main` — protected; every commit deployable; auto-deploys via Render.
-- `develop` — integration branch; may occasionally be red while a feature
-  is in progress.
-- `feature/<short-name>` — short-lived; one feature or fix per branch;
-  opened as a PR to `develop`.
-- `hotfix/<name>` — branched from `main`, PR back to both `main` and
-  `develop`.
-
-Commit messages follow Conventional Commits (`feat:`, `fix:`, `ci:`,
-`docs:`, `chore:`). This is not ceremony for its own sake — CI can later
-branch on commit type if needed (e.g. skip deploy on `docs:`).
-
-## 5. Decision-Making & Escalation
-
-- Two-reviewer rule for changes to `.github/workflows/`, `Dockerfile`, or
-  production configuration.
-- The DevOps Engineer has final say on infrastructure changes; the Product
-  Owner has final say on scope.
-- Escalation path: Developer → DevOps Engineer → Product Owner.
 
 ---
