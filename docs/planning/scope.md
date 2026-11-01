@@ -2,11 +2,6 @@
 
 **Project:** Proof-of-Concept E-commerce Application for Ipswich Retail
 **Author:** DevOps Lead (PoC)
-**Version:** 1.1
-**Date:** 10/25/2026
-**Status:** Approved for build
-**Changes from v1.0:** User authentication and profiles added to scope.
-
 ---
 
 ## 1. Purpose
@@ -52,30 +47,3 @@ inventory logic.
 > The additional auth and profile pages use Django's built-in `contrib.auth`
 > views with **no custom authentication logic**, and exist to support a
 > realistic checkout flow rather than as additional feature development.
-
-## 4. Data Model (In Scope)
-
-Three models. `Book` is the catalogue entity; `Order` and `Profile` are
-authentication-adjacent models that support the customer journey.
-
-```python
-# shop/models.py
-class Book(models.Model):
-    title       = models.CharField(max_length=200)
-    author      = models.CharField(max_length=150)
-    isbn        = models.CharField(max_length=13, unique=True)
-    description = models.TextField()
-    price       = models.DecimalField(max_digits=6, decimal_places=2)
-    cover_image = models.ImageField(upload_to='covers/', blank=True)
-    stock       = models.PositiveIntegerField(default=0)
-    created_at  = models.DateTimeField(auto_now_add=True)
-
-class Order(models.Model):
-    user       = models.ForeignKey(User, on_delete=models.CASCADE,
-                                   null=True, blank=True)
-    created_at = models.DateTimeField(auto_now_add=True)
-    total      = models.DecimalField(max_digits=8, decimal_places=2)
-
-# accounts/models.py
-class Profile(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
