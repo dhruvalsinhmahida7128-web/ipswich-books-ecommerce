@@ -8,5 +8,4 @@ scrape_configs:
     metrics_path: '/metrics'
     static_configs:
       - targets: ['ipswich-books.onrender.com'] 
-      # IMPORTANT: Replace the URL above with YOUR actual live Render URL (without https://)
     scheme: https
