@@ -1,7 +1,5 @@
 # Toolchain Decisions — Ipswich Books PoC
 
-**Version:** 1.0
-
 ## Purpose
 
 This document records the tool selected for each DevOps concern, the
